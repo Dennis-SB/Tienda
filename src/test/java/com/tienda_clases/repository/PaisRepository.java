@@ -11,6 +11,4 @@ import org.springframework.stereotype.*;
  */
 
 @Repository
-public interface PaisRepository extends CrudRepository<Pais,Long> {
-    
-}
+public interface PaisRepository extends CrudRepository<Pais,Long> {}

@@ -10,6 +10,4 @@ import org.springframework.stereotype.*;
  */
 
 @Repository
-public interface PersonaRepository extends CrudRepository<Persona,Long> {
-    
-} 
+public interface PersonaRepository extends CrudRepository<Persona,Long> {} 

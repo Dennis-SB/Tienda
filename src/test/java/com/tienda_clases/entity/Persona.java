@@ -14,11 +14,8 @@ public class Persona implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-    private String nombre;
-    private String apellido1;
-    private String apellido2;
-    private String telefono;
-    private String email;
+    private String nombre, apellido1, apellido2, telefono, email;
+    
     @ManyToOne
     @JoinColumn (name = "paises_id")
     private Pais pais;
